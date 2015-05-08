@@ -1,5 +1,95 @@
+body {
+	width: 1300px;
+	height: 2104px;
+}
+
+/****************************
+Header Styling
+****************************/
+
+
+.masthead {
+	width: 1300px;
+	height: 523px;
+	background-image: url('../img/waves.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	/*z-index: 0;*/
+}
+
+header .blue-container {
+	position: absolute;
+	height: 523px;
+	width: 1300px;
+}
+
+/*header .not-covered {
+	z-index: 5;
+}*/
+
+header p, header ul, header h6, header a, header a:visited {
+	color: rgb(11, 53, 80);
+}
+
 .fa-search {
 	transform: rotate(90deg);
 	-webkit-transform: rotate(90deg);
 	-moz-transform: rotate(90deg);
+}
+
+/******************************
+Section Styling
+******************************/
+
+/******************************
+Footer Styling
+******************************/
+
+.popular-posts li:first-child {
+	background-image: url('../img/beach-surfer.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: 324px;
+	height: 330px;
+}
+
+.popular-posts li:nth-child(2) {
+	background-image: url('../img/beer.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: 325px;
+	height: 330px;
+}
+
+.popular-posts li:nth-child(3) {
+	background-image: url('../img/zach.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: 325px;
+	height: 330px;
+}
+
+.popular-posts li:nth-child(4) {
+	background-image: url('../img/taps.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: 326px;
+	height: 330px;
+}
+
+/******************************
+General Styling
+******************************/
+
+.blue-container {
+	background-color: rgba(43, 119, 177, .7);
+	/*z-index: 1;*/
+}
+
+p, ul, h6, a, blockquote {
+	font-family: 'Open Sans', sans-serif;
+}
+
+h1, h2, h3, li span {
+	font-family: 'Oswald', sans-serif;
 }
