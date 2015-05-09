@@ -157,8 +157,30 @@ sidebar ul li {
 Footer Styling
 ******************************/
 
+.main-footer {
+	width: 1300px;
+	height: 573px;
+	text-align: center;
+}
+
+footer h2 {
+	position: relative;
+	width: 580px;
+	top: 40px;
+	margin: auto;
+	letter-spacing: .01em;
+	font-size: 3.89em;
+}
+
+.popular-posts {
+	position: relative;
+	top: 84px;
+}
+
 .popular-posts li {
 	display: inline-block;
+	height: 330px;
+	font-size: 26px;
 }
 
 .popular-posts li:first-child {
@@ -166,7 +188,23 @@ Footer Styling
 	background-size: cover;
 	background-repeat: no-repeat;
 	width: 324px;
+}
+
+.popular-posts li .blue-container {
 	height: 330px;
+	color: rgb(9, 46, 72);
+	transition: all .8s ease;
+}
+
+.popular-posts li .blue-container:first-child {
+	width: 324px;
+}
+
+.popular-posts li:first-child h3 {
+	margin-left: 15px;
+	margin-bottom: .6em;
+	font-size: 1.063em;
+	letter-spacing: .035em;
 }
 
 .popular-posts li:nth-child(2) {
@@ -174,7 +212,17 @@ Footer Styling
 	background-size: cover;
 	background-repeat: no-repeat;
 	width: 325px;
-	height: 330px;
+}
+
+.popular-posts li .blue-container:nth-child(2) {
+	width: 325px;
+}
+
+.popular-posts li:nth-child(2) h3 {
+	margin-left: .59em;
+	margin-bottom: .52em;
+	font-size: 1.15em;
+	letter-spacing: -.005em;
 }
 
 .popular-posts li:nth-child(3) {
@@ -182,7 +230,18 @@ Footer Styling
 	background-size: cover;
 	background-repeat: no-repeat;
 	width: 325px;
-	height: 330px;
+}
+
+.popular-posts li .blue-container:nth-child(3) {
+	width: 325px;
+}
+
+.popular-posts li:nth-child(3) h3 {
+	margin-left: .6em;
+	margin-bottom: .5em;
+	line-height: 1.25em;
+	font-size: 1.14em;
+	text-indent: -26px;
 }
 
 .popular-posts li:nth-child(4) {
@@ -193,8 +252,76 @@ Footer Styling
 	height: 330px;
 }
 
+.popular-posts li .blue-container:last-child {
+	width: 326px;
+}
+
+.popular-posts li:last-child h3 {
+	margin-left: .73em;
+	margin-bottom: .6em;
+	font-size: 1.1em;
+	letter-spacing: .01em;
+	text-indent: -;
+}
+
+.popular-posts li .blue-container:hover {
+	background-color: rgba(43, 119, 177, 0);
+	color: white;
+}
+
+.popular-posts li h3 {
+	position: absolute;
+	bottom: 0;
+}
+
 .bottom-nav li {
 	display: inline-block;
+}
+
+footer footer {
+	position: relative;
+	top: 82px;
+	width: 1300px;
+	height: 97px;
+	background-color: rgb(9, 46, 72);
+}
+
+.bottom-logo-nav-container {
+	position: relative;
+	margin-right: 161px;
+	margin-left: 162px;
+	width: 977px;
+	height: 35px;
+	top: 27px;
+	color: rgb(152, 170, 182);
+}
+
+.bottom-logo {
+	position: absolute;
+	left: -127px;
+	width: 600px;
+	height: 35px;
+	font-size: 13px;
+}
+
+.bottom-logo li:first-child {
+	position: relative;
+	left: 3px;
+}
+
+.bottom-logo li:last-child {
+	position: relative;
+	left: 15px;
+	top: -9px;
+	letter-spacing: .01em;
+}
+
+.bottom-nav {
+	position: absolute;
+	right: 0;
+	top: 14px;
+	font-size: .879em;
+	letter-spacing: .0099em;
 }
 
 /******************************
@@ -206,7 +333,7 @@ General Styling
 	/*z-index: 1;*/
 }
 
-p, ul, h6, a, blockquote {
+p, ul, h6, a, blockquote, li {
 	font-family: 'Open Sans', sans-serif;
 }
 
@@ -214,12 +341,17 @@ h1, h2, h3, li span {
 	font-family: "Oswald", sans-serif;
 }
 
+h2 {
+	font-size: 62px;
+	color: rgb(9, 46, 72);
+}
+
 .top-nav a, .bottom-nav a {
 	text-decoration: none;
 
 }
 
-.top-nav {
+.top-nav, {
 	font-family: 'Oswald', sans-serif;
 }
 
