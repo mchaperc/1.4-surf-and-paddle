@@ -14,7 +14,7 @@ Header Styling
 	background-image: url('../img/waves.jpg');
 	background-size: cover;
 	background-repeat: no-repeat;
-	/*z-index: 0;*/
+	padding: 0;
 }
 
 header .blue-container {
@@ -23,19 +23,88 @@ header .blue-container {
 	width: 1300px;
 }
 
-/*header .not-covered {
-	z-index: 5;
-}*/
+.logo-plus-nav {
+	width: 990px;
+	height: 45px;
+	position: relative;
+	margin-top: 10px;
+	margin-left: 141px;
+	margin-right: 169px;
+}
+
+.top-logo {
+	width: 270px;
+	margin-right: 0;
+	float: left;
+}
+
+.top-logo img {
+	height: 45px;
+	width: 45px;
+	margin: 0;
+	padding: 0;
+}
+
+.top-logo p {
+	position: relative;
+	left: 10px;
+	top: -17px;
+	font-size: 16.2px;
+	letter-spacing: -.005em;
+}
+
+.top-nav {
+	position: absolute;
+	right: 0;
+	font-size: 20px;
+	top: 9px;
+	letter-spacing: -.15em;
+}
+
+.top-nav li:first-child {
+	margin-right: 15px;
+}
+
+.top-nav li:nth-child(2) {
+	margin-right: 7px;
+}
+
+.top-nav img {
+	position: relative;
+	width: 15px;
+	height: 16px;
+}
+
+.inline-block {
+	display: inline-block;
+}
+
+.title-container {
+	position: relative;
+	text-align: center;
+	margin: 165px 201px 195px 196px;
+	width: 902px;
+	height: 104px;
+}
+
+.title-container h1 {
+	font-size: 110px;
+	color: white;
+	padding:0;
+	letter-spacing: -.1em;
+}
+
+.title-container h6 {
+	position: relative;
+	top: -15px;
+	font-size: 15px;
+	letter-spacing: .007em;
+}
 
 header p, header ul, header h6, header a, header a:visited {
 	color: rgb(11, 53, 80);
 }
 
-.fa-search {
-	transform: rotate(90deg);
-	-webkit-transform: rotate(90deg);
-	-moz-transform: rotate(90deg);
-}
 
 /******************************
 Section Styling
@@ -91,5 +160,18 @@ p, ul, h6, a, blockquote {
 }
 
 h1, h2, h3, li span {
+	font-family: "Oswald", sans-serif;
+}
+
+.top-nav a, .bottom-nav a {
+	text-decoration: none;
+
+}
+
+.top-nav {
 	font-family: 'Oswald', sans-serif;
+}
+
+.title-container h1 {
+	font-family: 'Martel Sans', sans-serif;
 }
