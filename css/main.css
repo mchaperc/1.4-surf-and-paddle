@@ -110,9 +110,56 @@ header p, header ul, header h6, header a, header a:visited {
 Section Styling
 ******************************/
 
+.main-content {
+	width: 1300px;
+	height: 1007px;
+	border-bottom: 1px solid rgb(229, 233, 235);
+}
+
+article:first-child {
+	float: left;
+	width: 861px;
+	height: 1007px;
+}
+
+sidebar {
+	float: right;
+	width: 439px;
+	height: 1007px;
+}
+
+/******************************
+Article Styling
+******************************/
+
+article header ul li {
+	display: inline-block;
+}
+
+.small-anne {
+	height: 26px;
+	width: 26px;
+}
+
+.main-content footer ul li {
+	display: inline-block;
+}
+
+/******************************
+Sidebar Styling
+******************************/
+
+sidebar ul li {
+	display: inline-block;
+}
+
 /******************************
 Footer Styling
 ******************************/
+
+.popular-posts li {
+	display: inline-block;
+}
 
 .popular-posts li:first-child {
 	background-image: url('../img/beach-surfer.png');
@@ -144,6 +191,10 @@ Footer Styling
 	background-repeat: no-repeat;
 	width: 326px;
 	height: 330px;
+}
+
+.bottom-nav li {
+	display: inline-block;
 }
 
 /******************************
