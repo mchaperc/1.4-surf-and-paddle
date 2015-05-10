@@ -1,6 +1,7 @@
 body {
 	width: 1300px;
 	height: 2104px;
+	margin: auto;
 }
 
 /****************************
@@ -223,6 +224,14 @@ h5 {
 	font-size: .83em;
 }
 
+h5 a {
+	text-decoration: none;
+}
+
+h5 a:visited {
+	color: white;
+}
+
 #comments {
 	width: 125px;
 }
@@ -393,6 +402,10 @@ footer h2 {
 
 .bottom-nav li {
 	display: inline-block;
+}
+
+.bottom-nav a:visited {
+	color: rgb(152, 170, 182)
 }
 
 footer footer {
