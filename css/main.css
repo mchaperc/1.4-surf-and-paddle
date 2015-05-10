@@ -47,18 +47,18 @@ header .blue-container {
 
 .top-logo p {
 	position: relative;
-	left: 10px;
+	left: .87em;
 	top: -17px;
-	font-size: 16.2px;
-	letter-spacing: -.005em;
+	font-size: 1em;
+	letter-spacing: -.016em;
 }
 
 .top-nav {
 	position: absolute;
 	right: 0;
-	font-size: 20px;
-	top: 9px;
-	letter-spacing: -.15em;
+	font-size: 1.3em;
+	top: .5em;
+	letter-spacing: -.18em;
 }
 
 .top-nav li:first-child {
@@ -91,7 +91,7 @@ header .blue-container {
 	font-size: 110px;
 	color: white;
 	padding:0;
-	letter-spacing: -.1em;
+	letter-spacing: -.0869em;
 }
 
 .title-container h6 {
@@ -120,6 +120,128 @@ article:first-child {
 	float: left;
 	width: 861px;
 	height: 1007px;
+	padding: 70px 82px 68px 163px;
+	box-sizing: border-box;
+}
+
+.main-article h2 {
+	letter-spacing: -.003em;
+	position: relative;
+	top: -.135em;
+	line-height: 1.115em;
+	font-size: 3.986em;
+}
+
+.main-article header ul {
+	position: relative;
+	top: -.66em;
+}
+
+.small-anne {
+	height: 23px;
+	width: 23px;
+	position: relative;
+	top: .45em;
+	left: .2em;
+}
+
+.main-article header ul li:nth-child(2) {
+	font-size: .83em;
+	letter-spacing: -.037em;
+	margin-left: .85em;
+	position: relative;
+	top: .29em;
+}
+
+.main-article header ul li:last-child {
+	font-size: .83em;
+	letter-spacing: -.016em;
+	margin-left: 1.22em;
+	position: relative;
+	top: .29em;
+}
+
+section article:nth-child(2) {
+	position: relative;
+	top: 1.9em;
+	line-height: 1.7em;
+	font-size: .969em;
+	letter-spacing: -.009em;
+}
+
+blockquote {
+	border-left: 2px solid rgb(205, 205, 205);
+	margin-left: 6px;
+	text-indent: .6em;
+	font-size: 1.78em;
+	position: relative;
+	top: -.28em;
+	letter-spacing: -.016em;
+	height: 56px;
+	box-sizing: border-box;
+	padding-top: .7em;
+	color: rgb(15, 98, 170);
+	margin-bottom: .78em;
+}
+
+.main-content footer {
+	position: relative;
+	top: 3em;
+	margin-left: 3px;
+}
+
+.main-content footer li i {
+	height: 30px;
+	width: 33px;
+	background-color: rgb(83, 93, 100);
+	color: white;
+	text-align: center;
+	transition: all .5s ease;
+}
+
+#bubble, #cloud, #arrow {
+	font-size: 1.1em;
+	box-sizing: border-box;
+	padding: .38em;
+}
+
+.main-content footer li {
+	margin-right: 10px;
+}
+
+h5 {
+	background-color: rgb(152, 170, 182);
+	color: white;
+	position: relative;
+	top: -3px;
+	vertical-align: middle;
+	transition: all .5s ease;
+	height: 30px;
+	box-sizing: border-box;
+	text-align: center;
+	padding-top: .7em;
+	font-size: .83em;
+}
+
+#comments {
+	width: 125px;
+}
+
+#read {
+	width: 95px;
+}
+
+#share {
+	width: 121px;
+}
+
+.main-content footer li:hover i {
+	background-color: rgb(9, 46, 72);
+}
+
+.main-content footer li:hover h5 {
+	background-color: rgb(16, 99, 170);
+	color: white;
 }
 
 sidebar {
@@ -134,11 +256,6 @@ Article Styling
 
 article header ul li {
 	display: inline-block;
-}
-
-.small-anne {
-	height: 26px;
-	width: 26px;
 }
 
 .main-content footer ul li {
@@ -331,6 +448,15 @@ General Styling
 .blue-container {
 	background-color: rgba(43, 119, 177, .7);
 	/*z-index: 1;*/
+}
+
+.anne a {
+	color: rgb(16, 99, 170);
+	text-decoration: none;
+}
+
+.anne a:visited {
+	color: rgb(16, 99, 170)
 }
 
 p, ul, h6, a, blockquote, li {
