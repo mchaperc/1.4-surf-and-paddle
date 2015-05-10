@@ -1,7 +1,6 @@
 body {
 	width: 1300px;
 	height: 2104px;
-	margin: auto;
 }
 
 /****************************
@@ -170,6 +169,18 @@ section article:nth-child(2) {
 	letter-spacing: -.009em;
 }
 
+article p a {
+	color: rgb(16, 98, 170);
+}
+
+article p a:visited {
+	color: rgb(16, 98, 170);
+}
+
+article p a:hover {
+	color: rgb(153, 170, 183)
+}
+
 blockquote {
 	border-left: 2px solid rgb(205, 205, 205);
 	margin-left: 6px;
@@ -271,12 +282,93 @@ article header ul li {
 	display: inline-block;
 }
 
+sidebar div img { 
+	margin-top: 83px;
+	margin-left: 98px;
+}
+
+.sidebar-links .sidebar-anne {
+	margin-top: .61em;
+	margin-left: 5.78em;
+	letter-spacing: .004em;
+}
+
+.sidebar-links ul {
+	margin-left: 3.5em;
+	margin-top: .5em;
+	font-size: .79em;
+	letter-spacing: .03em;
+}
+
+.sidebar-links ul li {
+	margin-right: 1em;
+}
+
+.sidebar-links ul li a {
+	text-decoration: none;
+}
+
+figure {
+	margin-top: 55px;
+}
+
+figcaption {
+	text-align: right;
+	margin-right: 12.3em;
+	margin-top: .349em;
+	font-size: .82em;
+}
+
+figcaption a {
+	color: rgb(152, 170, 182);
+}
+
+figcaption a:visited {
+	color: rgb(152, 170, 182);
+}
+
+.sidebar-content {
+	margin-top: 3em;
+}
+
+.sidebar-content .sidebar-heading {
+	font-size: 1.13em;
+	padding-left: .07em;
+	padding-top: .16em;
+	letter-spacing: -.009em;
+	color: rgb(16, 99, 170);
+}
+
+.sidebar-content p {
+	width: 278px;
+	font-size: .9em;
+	padding-top: .65em;
+	line-height: 1.7em;
+	letter-spacing: -.037em;
+}
+
+.sidebar-content a {
+	color: rgb(152, 170, 182);
+}
+
+.sidebar-content a:visited {
+	color: rgb(152, 170, 182);
+}
+
 /******************************
 Sidebar Styling
 ******************************/
 
 sidebar ul li {
 	display: inline-block;
+}
+
+sidebar ul li a {
+	color: rgb(152, 170, 182);
+}
+
+sidebar ul li a:visited {
+	color: rgb(152, 170, 182);
 }
 
 /******************************
