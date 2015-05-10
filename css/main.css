@@ -116,6 +116,24 @@ Section Styling
 	border-bottom: 1px solid rgb(229, 233, 235);
 }
 
+sidebar {
+	float: right;
+	width: 439px;
+	height: 1007px;
+}
+
+/******************************
+Article Styling
+******************************/
+
+article header ul li {
+	display: inline-block;
+}
+
+.main-content footer ul li {
+	display: inline-block;
+}
+
 article:first-child {
 	float: left;
 	width: 861px;
@@ -264,22 +282,21 @@ h5 a:visited {
 	color: white;
 }
 
-sidebar {
-	float: right;
-	width: 439px;
-	height: 1007px;
-}
-
 /******************************
-Article Styling
+Sidebar Styling
 ******************************/
 
-article header ul li {
+sidebar ul li {
 	display: inline-block;
 }
 
-.main-content footer ul li {
-	display: inline-block;
+sidebar ul li a {
+	color: rgb(152, 170, 182);
+	text-decoration: none;
+}
+
+sidebar ul li a:visited {
+	color: rgb(152, 170, 182);
 }
 
 sidebar div img { 
@@ -302,10 +319,6 @@ sidebar div img {
 
 .sidebar-links ul li {
 	margin-right: 1em;
-}
-
-.sidebar-links ul li a {
-	text-decoration: none;
 }
 
 figure {
@@ -345,6 +358,7 @@ figcaption a:visited {
 	padding-top: .65em;
 	line-height: 1.7em;
 	letter-spacing: -.037em;
+	color: rgb(152, 170, 182);
 }
 
 .sidebar-content a {
@@ -352,22 +366,6 @@ figcaption a:visited {
 }
 
 .sidebar-content a:visited {
-	color: rgb(152, 170, 182);
-}
-
-/******************************
-Sidebar Styling
-******************************/
-
-sidebar ul li {
-	display: inline-block;
-}
-
-sidebar ul li a {
-	color: rgb(152, 170, 182);
-}
-
-sidebar ul li a:visited {
 	color: rgb(152, 170, 182);
 }
 
