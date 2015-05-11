@@ -1,6 +1,57 @@
-body {
-	width: 1300px;
-	height: 2104px;
+
+/******************************
+General Styling
+******************************/
+
+.blue-container {
+	background-color: rgba(43, 119, 177, .7);
+}
+
+.anne a {
+	color: rgb(16, 99, 170);
+	text-decoration: none;
+}
+
+.anne a:visited {
+	color: rgb(16, 99, 170)
+}
+
+p, ul, h6, a, blockquote, li {
+	font-family: 'Open Sans', sans-serif;
+}
+
+h1, h2, h3, li span {
+	font-family: "Oswald", sans-serif;
+}
+
+h2 {
+	font-size: 62px;
+	color: rgb(9, 46, 72);
+}
+
+.top-nav a, .bottom-nav a {
+	text-decoration: none;
+
+}
+
+.top-nav, {
+	font-family: 'Oswald', sans-serif;
+}
+
+.title-container h1 {
+	font-family: 'Martel Sans', sans-serif;
+}
+
+p a {
+	color: rgb(16, 98, 170);
+}
+
+p a:visited {
+	color: rgb(16, 98, 170);
+}
+
+p a:hover {
+	color: rgb(153, 170, 183)
 }
 
 /****************************
@@ -46,6 +97,7 @@ header .blue-container {
 }
 
 .top-logo p {
+	display: inline-block;
 	position: relative;
 	left: .87em;
 	top: -17px;
@@ -56,8 +108,8 @@ header .blue-container {
 .top-nav {
 	position: absolute;
 	right: 0;
-	font-size: 1.3em;
 	top: .5em;
+	font-size: 1.3em;
 	letter-spacing: -.18em;
 }
 
@@ -185,18 +237,6 @@ section article:nth-child(2) {
 	line-height: 1.7em;
 	font-size: .969em;
 	letter-spacing: -.009em;
-}
-
-article p a {
-	color: rgb(16, 98, 170);
-}
-
-article p a:visited {
-	color: rgb(16, 98, 170);
-}
-
-article p a:hover {
-	color: rgb(153, 170, 183)
 }
 
 blockquote {
@@ -545,53 +585,114 @@ footer footer {
 }
 
 .bottom-nav a {
-	color: rgb(152, 170, 182);;
+	color: rgb(152, 170, 182);
+	transition: all .3s ease;
 }
 
-.bottom-nav a:visited {
-	color: rgb(152, 170, 182);;
+.bottom-nav a:hover {
+	color: white;
 }
 
-/******************************
-General Styling
-******************************/
+@media screen and (max-width: 980px) {
 
-.blue-container {
-	background-color: rgba(43, 119, 177, .7);
-	/*z-index: 1;*/
-}
+	section {
+		height: 100%;
+		margin-top: -400px;
+	}
 
-.anne a {
-	color: rgb(16, 99, 170);
-	text-decoration: none;
-}
+	.masthead {
+		width: 100%;
+		height: 14em;
+		background-image: url('../img/waves.jpg');
+		background-size: cover;
+		background-repeat: no-repeat;
+	}
 
-.anne a:visited {
-	color: rgb(16, 99, 170)
-}
+	header, section, footer, article, sidebar {
+		display: block;
+	}
 
-p, ul, h6, a, blockquote, li {
-	font-family: 'Open Sans', sans-serif;
-}
+	.masthead .blue-container {
+		width: 100%;
+		height: 14em;
+	}
 
-h1, h2, h3, li span {
-	font-family: "Oswald", sans-serif;
-}
+	.logo-plus-nav {
+		width: 70%;
+		margin: auto;
+	}
 
-h2 {
-	font-size: 62px;
-	color: rgb(9, 46, 72);
-}
+	.top-logo {
+		position: absolute;
+		top: 95%;
+		left: 42%;
+	}
 
-.top-nav a, .bottom-nav a {
-	text-decoration: none;
+	.top-logo p {
+		display: none;
+	}
 
-}
+	.top-nav {
+		margin: auto;
+		position: absolute;
+		left: 25%;
+		top: 25%;
+	}
+	.title-container {
+		width: 100%;
+		margin: 0 auto;
+		text-align: center;
+	}
 
-.top-nav, {
-	font-family: 'Oswald', sans-serif;
-}
+	.title-container h1 {
+		font-size: 2.5em;
+		margin-bottom: .5em;
+		margin-top: 2em;
+	}
+	.main-content {
+		width: 100%;
+		height: 100%;
+	}
 
-.title-container h1 {
-	font-family: 'Martel Sans', sans-serif;
+	.main-content .main-article {
+		width: 100%;
+	}
+	
+	article:first-child {
+		padding: 3em .6em 6em .8em;
+	}
+
+	.main-article header ul li:first-child, .main-article header ul li:nth-child(2) {
+		display: none;
+	}
+
+	.main-content h5 {
+		display: none;
+	}
+
+	.main-article h2 {
+		margin-left: 0;
+	}
+
+	sidebar {
+		width: 360px;
+		float: none;
+		position: relative;
+		top: 25em;
+		margin: 25em auto;
+	}
+
+	.sidebar-content {
+		display: none;
+	}
+
+	.main-footer {
+		position: absolute;
+		bottom: -160em;
+		width: 100%;
+	}
+
+	.main-footer footer {
+		width: 100%;
+	}
 }
