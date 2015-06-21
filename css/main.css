@@ -1,0 +1,745 @@
+
+/******************************
+General Styling
+******************************/
+
+.blue-container {
+	background-color: rgba(43, 119, 177, .7);
+}
+
+.anne a {
+	color: rgb(16, 99, 170);
+	text-decoration: none;
+}
+
+.anne a:visited {
+	color: rgb(16, 99, 170)
+}
+
+p, ul, h6, a, blockquote, li {
+	font-family: 'Open Sans', sans-serif;
+}
+
+h1, h2, h3, li span {
+	font-family: "Oswald", sans-serif;
+}
+
+h2 {
+	font-size: 62px;
+	color: rgb(9, 46, 72);
+}
+
+.top-nav a, .bottom-nav a {
+	text-decoration: none;
+
+}
+
+.top-nav, {
+	font-family: 'Oswald', sans-serif;
+}
+
+.title-container h1 {
+	font-family: 'Martel Sans', sans-serif;
+}
+
+p a {
+	color: rgb(16, 98, 170);
+}
+
+p a:visited {
+	color: rgb(16, 98, 170);
+}
+
+p a:hover {
+	color: rgb(153, 170, 183)
+}
+
+/****************************
+Header Styling
+****************************/
+
+
+.masthead {
+	width: 1300px;
+	height: 523px;
+	background-image: url('../img/waves.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	padding: 0;
+}
+
+header .blue-container {
+	position: absolute;
+	height: 523px;
+	width: 1300px;
+}
+
+.logo-plus-nav {
+	width: 990px;
+	height: 45px;
+	position: relative;
+	margin-top: 10px;
+	margin-left: 141px;
+	margin-right: 169px;
+}
+
+.top-logo {
+	width: 270px;
+	margin-right: 0;
+	float: left;
+}
+
+.top-logo img {
+	height: 45px;
+	width: 45px;
+	margin: 0;
+	padding: 0;
+}
+
+.top-logo p {
+	display: inline-block;
+	position: relative;
+	left: .87em;
+	top: -17px;
+	font-size: 1em;
+	letter-spacing: -.016em;
+}
+
+.top-nav {
+	position: absolute;
+	right: 0;
+	top: .5em;
+	font-size: 1.3em;
+	letter-spacing: -.1em;
+}
+
+.top-nav li:first-child {
+	margin-right: 15px;
+}
+
+.top-nav li:nth-child(2) {
+	margin-right: 7px;
+}
+
+.top-nav img {
+	position: relative;
+	width: 15px;
+	height: 16px;
+}
+
+.inline-block {
+	display: inline-block;
+}
+
+.title-container {
+	position: relative;
+	text-align: center;
+	margin: 165px 201px 195px 196px;
+	width: 902px;
+	height: 104px;
+}
+
+.title-container h1 {
+	font-size: 110px;
+	color: white;
+	padding:0;
+	letter-spacing: -.0869em;
+}
+
+.title-container h6 {
+	position: relative;
+	top: -15px;
+	font-size: 15px;
+	letter-spacing: .007em;
+}
+
+header p, header ul, header h6, header a, header a:visited {
+	color: rgb(11, 53, 80);
+}
+
+
+/******************************
+Section Styling
+******************************/
+
+.main-content {
+	width: 1300px;
+	height: 1007px;
+	border-bottom: 1px solid rgb(229, 233, 235);
+}
+
+sidebar {
+	float: right;
+	width: 439px;
+	height: 1007px;
+}
+
+/******************************
+Article Styling
+******************************/
+
+article header ul li {
+	display: inline-block;
+}
+
+.main-content footer ul li {
+	display: inline-block;
+}
+
+article:first-child {
+	float: left;
+	width: 861px;
+	height: 1007px;
+	padding: 70px 82px 68px 163px;
+	box-sizing: border-box;
+}
+
+.main-article h2 {
+	letter-spacing: -.003em;
+	position: relative;
+	top: -.135em;
+	line-height: 1.115em;
+	font-size: 3.986em;
+}
+
+.main-article header ul {
+	position: relative;
+	top: -.66em;
+}
+
+.small-anne {
+	height: 23px;
+	width: 23px;
+	position: relative;
+	top: .45em;
+	left: .2em;
+}
+
+.main-article header ul li:nth-child(2) {
+	font-size: .83em;
+	letter-spacing: -.037em;
+	margin-left: .85em;
+	position: relative;
+	top: .29em;
+}
+
+.main-article header ul li:last-child {
+	font-size: .83em;
+	letter-spacing: -.016em;
+	margin-left: 1.22em;
+	position: relative;
+	top: .29em;
+}
+
+section article:nth-child(2) {
+	position: relative;
+	top: 1.9em;
+	line-height: 1.7em;
+	font-size: .969em;
+	letter-spacing: -.009em;
+}
+
+blockquote {
+	border-left: 2px solid rgb(205, 205, 205);
+	margin-left: 6px;
+	text-indent: .6em;
+	font-size: 1.78em;
+	position: relative;
+	top: -.28em;
+	letter-spacing: -.016em;
+	height: 56px;
+	box-sizing: border-box;
+	padding-top: .7em;
+	color: rgb(15, 98, 170);
+	margin-bottom: .78em;
+}
+
+.main-content footer {
+	position: relative;
+	top: 3em;
+	margin-left: 3px;
+}
+
+.main-content footer li i {
+	height: 30px;
+	width: 33px;
+	background-color: rgb(83, 93, 100);
+	color: white;
+	text-align: center;
+	transition: all .5s ease;
+}
+
+#bubble, #cloud, #arrow {
+	font-size: 1.1em;
+	box-sizing: border-box;
+	padding: .38em;
+}
+
+.main-content footer li {
+	margin-right: 10px;
+}
+
+h5 {
+	background-color: rgb(152, 170, 182);
+	color: white;
+	position: relative;
+	top: -3px;
+	vertical-align: middle;
+	transition: all .5s ease;
+	height: 30px;
+	box-sizing: border-box;
+	text-align: center;
+	padding-top: .7em;
+	font-size: .83em;
+}
+
+h5 a {
+	text-decoration: none;
+}
+
+h5 a:visited {
+	color: white;
+}
+
+#comments {
+	width: 125px;
+}
+
+#read {
+	width: 95px;
+}
+
+#share {
+	width: 121px;
+}
+
+.main-content footer li:hover i {
+	background-color: rgb(9, 46, 72);
+}
+
+.main-content footer li:hover h5 {
+	background-color: rgb(16, 99, 170);
+	color: white;
+}
+
+/******************************
+Sidebar Styling
+******************************/
+
+sidebar ul li {
+	display: inline-block;
+}
+
+sidebar ul li a {
+	color: rgb(152, 170, 182);
+	text-decoration: none;
+}
+
+sidebar ul li a:visited {
+	color: rgb(152, 170, 182);
+}
+
+sidebar div img { 
+	margin-top: 83px;
+	margin-left: 98px;
+}
+
+.sidebar-links .sidebar-anne {
+	margin-top: .61em;
+	margin-left: 5.78em;
+	letter-spacing: .004em;
+}
+
+.sidebar-links ul {
+	margin-left: 3.5em;
+	margin-top: .5em;
+	font-size: .79em;
+	letter-spacing: .03em;
+}
+
+.sidebar-links ul li {
+	margin-right: 1em;
+}
+
+figure {
+	margin-top: 55px;
+}
+
+figcaption {
+	text-align: right;
+	margin-right: 12.3em;
+	margin-top: .349em;
+	font-size: .82em;
+}
+
+figcaption a {
+	color: rgb(152, 170, 182);
+}
+
+figcaption a:visited {
+	color: rgb(152, 170, 182);
+}
+
+.sidebar-content {
+	margin-top: 3em;
+}
+
+.sidebar-content .sidebar-heading {
+	font-size: 1.13em;
+	padding-left: .07em;
+	padding-top: .16em;
+	letter-spacing: -.009em;
+	color: rgb(16, 99, 170);
+}
+
+.sidebar-content p {
+	width: 278px;
+	font-size: .9em;
+	padding-top: .65em;
+	line-height: 1.7em;
+	letter-spacing: -.037em;
+	color: rgb(152, 170, 182);
+}
+
+.sidebar-content a {
+	color: rgb(152, 170, 182);
+}
+
+.sidebar-content a:visited {
+	color: rgb(152, 170, 182);
+}
+
+/******************************
+Footer Styling
+******************************/
+
+.main-footer {
+	width: 1300px;
+	height: 573px;
+	text-align: center;
+}
+
+footer h2 {
+	position: relative;
+	width: 580px;
+	top: 40px;
+	margin: auto;
+	letter-spacing: .01em;
+	font-size: 3.89em;
+}
+
+.popular-posts {
+	position: relative;
+	top: 84px;
+}
+
+.popular-posts li {
+	display: inline-block;
+	height: 330px;
+	font-size: 26px;
+}
+
+.popular-posts li:first-child {
+	background-image: url('../img/beach-surfer.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: 324px;
+}
+
+.popular-posts li .blue-container {
+	height: 330px;
+	color: rgb(9, 46, 72);
+	transition: all .8s ease;
+}
+
+.popular-posts li .blue-container:first-child {
+	width: 324px;
+}
+
+.popular-posts li:first-child h3 {
+	margin-left: 15px;
+	margin-bottom: .6em;
+	font-size: 1.063em;
+	letter-spacing: .035em;
+}
+
+.popular-posts li:nth-child(2) {
+	background-image: url('../img/beer.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: 325px;
+}
+
+.popular-posts li .blue-container:nth-child(2) {
+	width: 325px;
+}
+
+.popular-posts li:nth-child(2) h3 {
+	margin-left: .59em;
+	margin-bottom: .52em;
+	font-size: 1.15em;
+	letter-spacing: -.005em;
+}
+
+.popular-posts li:nth-child(3) {
+	background-image: url('../img/zach.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: 325px;
+}
+
+.popular-posts li .blue-container:nth-child(3) {
+	width: 325px;
+}
+
+.popular-posts li:nth-child(3) h3 {
+	margin-left: .6em;
+	margin-bottom: .5em;
+	line-height: 1.25em;
+	font-size: 1.14em;
+	text-indent: -26px;
+}
+
+.popular-posts li:nth-child(4) {
+	background-image: url('../img/taps.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: 326px;
+	height: 330px;
+}
+
+.popular-posts li .blue-container:last-child {
+	width: 326px;
+}
+
+.popular-posts li:last-child h3 {
+	margin-left: .73em;
+	margin-bottom: .6em;
+	font-size: 1.1em;
+	letter-spacing: .01em;
+	text-indent: -;
+}
+
+.popular-posts li .blue-container:hover {
+	background-color: rgba(43, 119, 177, 0);
+	color: white;
+}
+
+.popular-posts li h3 {
+	position: absolute;
+	bottom: 0;
+}
+
+.bottom-nav li {
+	display: inline-block;
+}
+
+.bottom-nav a:visited {
+	color: rgb(152, 170, 182)
+}
+
+footer footer {
+	position: relative;
+	top: 82px;
+	width: 1300px;
+	height: 97px;
+	background-color: rgb(9, 46, 72);
+}
+
+.bottom-logo-nav-container {
+	position: relative;
+	margin-right: 161px;
+	margin-left: 162px;
+	width: 977px;
+	height: 35px;
+	top: 27px;
+	color: rgb(152, 170, 182);
+}
+
+.bottom-logo {
+	position: absolute;
+	left: -127px;
+	width: 600px;
+	height: 35px;
+	font-size: 13px;
+}
+
+.bottom-logo li:first-child {
+	position: relative;
+	left: 3px;
+}
+
+.bottom-logo li:last-child {
+	position: relative;
+	left: 15px;
+	top: -9px;
+	letter-spacing: .01em;
+}
+
+.bottom-nav {
+	position: absolute;
+	right: 0;
+	top: 14px;
+	font-size: .879em;
+	letter-spacing: .0099em;
+}
+
+.bottom-nav a {
+	color: rgb(152, 170, 182);
+	transition: all .3s ease;
+}
+
+.bottom-nav a:hover {
+	color: white;
+}
+
+
+
+@media screen and (max-width: 992px) {
+
+	section {
+		height: 100%;
+		margin-top: -400px;
+	}
+
+	.masthead {
+		width: 100%;
+		height: 14em;
+		background-image: url('../img/waves.jpg');
+		background-size: cover;
+		background-repeat: no-repeat;
+	}
+
+	header, section, footer, article, sidebar {
+		display: block;
+	}
+
+	.masthead .blue-container {
+		width: 100%;
+		height: 14em;
+	}
+
+	.logo-plus-nav {
+		width: 70%;
+		margin: auto;
+	}
+
+	.top-logo {
+		position: absolute;
+		text-align: center;
+		left: 30%;
+		top: 90%;
+	}
+
+	.top-logo p {
+		display: none;
+	}
+
+	.top-nav {
+		margin: 1em auto;
+		position: static;
+		text-align: center;
+	}
+	.title-container {
+		width: 100%;
+		margin: 0 auto;
+		text-align: center;
+	}
+
+	.title-container h1 {
+		font-size: 2.5em;
+		margin-bottom: .5em;
+		margin-top: 2em;
+	}
+	.main-content {
+		width: 100%;
+		height: 100%;
+	}
+
+	.main-content .main-article {
+		width: 100%;
+		height: 100%;
+	}
+	
+	article:first-child {
+		padding: 3em .6em 6em 1em;
+	}
+
+	.main-article header ul li:first-child, .main-article header ul li:nth-child(2) {
+		display: none;
+	}
+
+	.main-content h5 {
+		display: none;
+	}
+
+	.main-article h2 {
+		margin-left: 0;
+	}
+
+	sidebar {
+		width: 360px;
+		float: none;
+		position: relative;
+		top: 25em;
+		margin: 25em auto;
+	}
+
+	.sidebar-content {
+		display: none;
+	}
+
+	.main-footer {
+		position: absolute;
+		bottom: -160em;
+		width: 100%;
+	}
+
+	.main-footer footer {
+		width: 100%;
+	}
+
+	.main-footer h2 {
+		width: 100%;
+	}
+
+	footer footer {
+		width: 100%;
+}
+
+	.bottom-logo-nav-container {
+		width: 100%;
+	}
+
+	.bottom-logo-nav-container ul, .bottom-logo-nav-container nav {
+		display: block;
+	}
+
+	.bottom-logo {
+		position: static;
+		width: 100%;
+	}
+}
+
+@media screen and (max-width: 700px) {
+
+	.top-logo {
+		left: 20%;
+	}
+
+}
+
+@media screen and (max-width: 600px) {
+
+	.top-logo {
+		left: 10%;
+	}
+
+}
+
+@media screen and (max-width: 450px) {
+
+	.top-logo {
+		left: 0;
+	}
+}
